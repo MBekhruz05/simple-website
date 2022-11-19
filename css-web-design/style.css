@@ -1,0 +1,126 @@
+ * { 
+    margin: 0;
+    padding: 0;
+}
+#header {
+    background-color: #35424a;
+    border-bottom: 4px rgb(236, 85, 30) solid;
+}
+#header h1 {
+    color: #fff;
+    font-family: sans-serif;
+    padding: 15px 0;
+    display: inline-block;
+}
+#header .logo{
+    color: rgb(236, 85, 30);
+}
+.navbar{
+    float: right;
+}
+.navbar li {
+    display: inline;
+}
+.navbar li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: sans-serif;
+    padding:  25px 15px;
+    display: inline-block;
+}
+.navbar li a:hover{
+    color: rgb(236, 85, 30);
+}
+.container { 
+    width: 70%;
+    margin: auto;
+}
+#banner{
+    height: 95vh;
+    background-image: url(./images/main4.jpg);
+    background-repeat: no-repeat;
+    background-position: center -180px;
+    background-size: cover;
+    text-align: center ;
+    color: #fff;
+    font-family: sans-serif;
+}
+#banner h1{
+    font-size: 56px;
+    margin-bottom: 25px;
+    padding-top: 250px;
+}
+#newsletter{
+    background-color: #35424a;
+    color: #fff;
+    font-family: sans-serif;
+    padding: 20px 0;
+    display: inline-block;
+    width: 100%;
+}
+#newsletter .left{ 
+    float: left;
+}
+#newsletter .right{ 
+    float: right;
+}
+#newsletter input{ 
+    padding: 6px;
+}
+.button{
+    position: relative;
+    padding: 9px 15px;
+    border: none;
+    background-color: rgb(236, 85, 30);
+    color: #fff;
+    margin-left: 5px;
+    font-size: 10px;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.button:after {
+    content: "";
+    background: #f1f1f1;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px !important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+  .button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+#courses{
+    padding: 60px 0px;
+}
+.box{
+    height: 70vh;
+    width: 30%;
+    float: left;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 5px 10px;
+}
+.box img{
+    max-width: 100%;
+    width: 120px;
+}
+.clr{
+    clear: both;
+}
+#footer{
+    padding: 30px 0;
+    background-color: rgb(236, 85, 30);
+    color: #fff;
+    margin-top: 27px;
+    text-align: center;
+}
